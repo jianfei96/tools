@@ -114,19 +114,7 @@ class encn_Collins {
                 definitions.push(definition);
             }
 
-            let css = `
-                <style>
-                    span.star {color: #FFBB00;}
-                    span.cet  {margin: 0 3px;padding: 0 3px;font-weight: normal;font-size: 0.8em;color: white;background-color: #5cb85c;border-radius: 3px;}
-                    span.pos  {text-transform:lowercase; font-size:0.9em; margin-right:5px; padding:2px 4px; color:white; background-color:#0d47a1; border-radius:3px;}
-                    span.tran {margin:0; padding:0;}
-                    span.eng_tran {margin-right:3px; padding:0;}
-                    span.chn_tran {color:#ffaa7f;}
-                    ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;border-radius:5px;}
-                    li.sent  {margin:0; padding:0;}
-                    span.eng_sent {margin-right:5px;}
-                    span.chn_sent {color:#ffaa7f;}
-                </style>`;
+            let css = '';
 
             notes.push({
                 css,
