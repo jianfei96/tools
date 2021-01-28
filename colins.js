@@ -122,7 +122,7 @@ class encn_Collins {
                     span.tran {margin:0; padding:0;}
                     span.eng_tran {margin-right:3px; padding:0;}
                     span.chn_tran {color:#ffaa7f;}
-                    ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(13,71,161,0.1); border-radius:5px;}
+                    ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;border-radius:5px;}
                     li.sent  {margin:0; padding:0;}
                     span.eng_sent {margin-right:5px;}
                     span.chn_sent {color:#ffaa7f;}
